@@ -793,13 +793,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.07840944, y: 0.92111385, z: -0.25374553, w: -0.2846303}
-  m_LocalPosition: {x: 64.52687, y: 11.582104, z: 67.14308}
+  m_LocalRotation: {x: -0.121171035, y: 0.8857328, z: -0.29620728, w: -0.33623824}
+  m_LocalPosition: {x: 59.83, y: 22.4, z: 58.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 37.316, y: -138.801, z: -1.114}
 --- !u!850595691 &988332730
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -1610,8 +1610,9 @@ MonoBehaviour:
   - {fileID: 1541431169}
   - {fileID: 1442520198}
   - {fileID: 257954756}
-  speed: 7
-  rotSpeed: 2.5
+  speed: 19.8
+  rotSpeed: 5
+  lookAhead: 10
 --- !u!54 &2713447972708953234
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2688,8 +2689,9 @@ MonoBehaviour:
   - {fileID: 1541431169}
   - {fileID: 1442520198}
   - {fileID: 257954756}
-  speed: 10
-  rotSpeed: 3.5
+  speed: 19.4
+  rotSpeed: 5
+  lookAhead: 10
 --- !u!54 &7863693248642204186
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2779,6 +2781,7 @@ MonoBehaviour:
   - {fileID: 257954756}
   speed: 20
   rotSpeed: 5
+  lookAhead: 10
 --- !u!54 &7871142010654116012
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3008,8 +3011,9 @@ MonoBehaviour:
   - {fileID: 1541431169}
   - {fileID: 1442520198}
   - {fileID: 257954756}
-  speed: 5
+  speed: 19.6
   rotSpeed: 5
+  lookAhead: 10
 --- !u!54 &9048989675280529227
 Rigidbody:
   m_ObjectHideFlags: 0
